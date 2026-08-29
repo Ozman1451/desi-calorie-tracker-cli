@@ -1,0 +1,375 @@
+{
+  "_comment": "Desi Calorie Tracker v1 — Seed Data. 20 Pakistani dishes: 10 home-cooked, 10 fast-food/street. Nutrition values sourced from USDA FoodData Central and Pakistan NIFSAT food composition tables. Do NOT invent values — trace every change to a reference.",
+
+  "ingredients_master": [
+    { "ingredient_name": "chicken_bone_in",       "calories_per_100g": 145, "protein_g_per_100g": 20.0, "carbs_g_per_100g": 0.0,  "fat_g_per_100g": 7.0  },
+    { "ingredient_name": "chicken_boneless",      "calories_per_100g": 165, "protein_g_per_100g": 31.0, "carbs_g_per_100g": 0.0,  "fat_g_per_100g": 3.6  },
+    { "ingredient_name": "beef_shank_cooked",     "calories_per_100g": 190, "protein_g_per_100g": 26.0, "carbs_g_per_100g": 0.0,  "fat_g_per_100g": 9.0  },
+    { "ingredient_name": "beef_mince",            "calories_per_100g": 250, "protein_g_per_100g": 17.0, "carbs_g_per_100g": 0.0,  "fat_g_per_100g": 20.0 },
+    { "ingredient_name": "mutton_bone_in",        "calories_per_100g": 235, "protein_g_per_100g": 22.0, "carbs_g_per_100g": 0.0,  "fat_g_per_100g": 16.0 },
+    { "ingredient_name": "basmati_rice_cooked",   "calories_per_100g": 130, "protein_g_per_100g": 2.7,  "carbs_g_per_100g": 28.0, "fat_g_per_100g": 0.3  },
+    { "ingredient_name": "dal_cooked",            "calories_per_100g": 116, "protein_g_per_100g": 7.6,  "carbs_g_per_100g": 20.0, "fat_g_per_100g": 1.5  },
+    { "ingredient_name": "mixed_lentils_cooked",  "calories_per_100g": 120, "protein_g_per_100g": 9.0,  "carbs_g_per_100g": 20.0, "fat_g_per_100g": 0.4  },
+    { "ingredient_name": "wheat_daliya_cooked",   "calories_per_100g": 83,  "protein_g_per_100g": 3.0,  "carbs_g_per_100g": 18.0, "fat_g_per_100g": 0.5  },
+    { "ingredient_name": "cooking_oil",           "calories_per_100g": 884, "protein_g_per_100g": 0.0,  "carbs_g_per_100g": 0.0,  "fat_g_per_100g": 100.0},
+    { "ingredient_name": "ghee",                  "calories_per_100g": 900, "protein_g_per_100g": 0.1,  "carbs_g_per_100g": 0.0,  "fat_g_per_100g": 99.5 },
+    { "ingredient_name": "butter",                "calories_per_100g": 717, "protein_g_per_100g": 0.9,  "carbs_g_per_100g": 0.1,  "fat_g_per_100g": 81.0 },
+    { "ingredient_name": "onion",                 "calories_per_100g": 40,  "protein_g_per_100g": 1.1,  "carbs_g_per_100g": 9.3,  "fat_g_per_100g": 0.1  },
+    { "ingredient_name": "tomato",                "calories_per_100g": 18,  "protein_g_per_100g": 0.9,  "carbs_g_per_100g": 3.9,  "fat_g_per_100g": 0.2  },
+    { "ingredient_name": "garlic",                "calories_per_100g": 149, "protein_g_per_100g": 6.4,  "carbs_g_per_100g": 33.0, "fat_g_per_100g": 0.5  },
+    { "ingredient_name": "ginger",                "calories_per_100g": 80,  "protein_g_per_100g": 1.8,  "carbs_g_per_100g": 18.0, "fat_g_per_100g": 0.8  },
+    { "ingredient_name": "yogurt_plain",          "calories_per_100g": 61,  "protein_g_per_100g": 3.5,  "carbs_g_per_100g": 4.7,  "fat_g_per_100g": 3.3  },
+    { "ingredient_name": "spinach",               "calories_per_100g": 23,  "protein_g_per_100g": 2.9,  "carbs_g_per_100g": 3.6,  "fat_g_per_100g": 0.4  },
+    { "ingredient_name": "mustard_greens",        "calories_per_100g": 27,  "protein_g_per_100g": 2.7,  "carbs_g_per_100g": 4.7,  "fat_g_per_100g": 0.4  },
+    { "ingredient_name": "makki_atta",            "calories_per_100g": 365, "protein_g_per_100g": 9.0,  "carbs_g_per_100g": 74.0, "fat_g_per_100g": 4.0  },
+    { "ingredient_name": "potato",                "calories_per_100g": 77,  "protein_g_per_100g": 2.0,  "carbs_g_per_100g": 17.0, "fat_g_per_100g": 0.1  },
+    { "ingredient_name": "peas",                  "calories_per_100g": 81,  "protein_g_per_100g": 5.4,  "carbs_g_per_100g": 14.0, "fat_g_per_100g": 0.4  },
+    { "ingredient_name": "besan",                 "calories_per_100g": 387, "protein_g_per_100g": 22.0, "carbs_g_per_100g": 58.0, "fat_g_per_100g": 6.0  },
+    { "ingredient_name": "maida",                 "calories_per_100g": 364, "protein_g_per_100g": 10.0, "carbs_g_per_100g": 76.0, "fat_g_per_100g": 1.0  },
+    { "ingredient_name": "atta_whole_wheat",      "calories_per_100g": 340, "protein_g_per_100g": 13.0, "carbs_g_per_100g": 71.0, "fat_g_per_100g": 2.5  },
+    { "ingredient_name": "egg_whole",             "calories_per_100g": 155, "protein_g_per_100g": 13.0, "carbs_g_per_100g": 1.1,  "fat_g_per_100g": 11.0 },
+    { "ingredient_name": "milk_full_fat",         "calories_per_100g": 61,  "protein_g_per_100g": 3.2,  "carbs_g_per_100g": 4.8,  "fat_g_per_100g": 3.3  },
+    { "ingredient_name": "sugar",                 "calories_per_100g": 387, "protein_g_per_100g": 0.0,  "carbs_g_per_100g": 100.0,"fat_g_per_100g": 0.0  },
+    { "ingredient_name": "pita_bread",            "calories_per_100g": 275, "protein_g_per_100g": 9.0,  "carbs_g_per_100g": 56.0, "fat_g_per_100g": 1.2  },
+    { "ingredient_name": "burger_bun",            "calories_per_100g": 265, "protein_g_per_100g": 9.0,  "carbs_g_per_100g": 49.0, "fat_g_per_100g": 3.2  },
+    { "ingredient_name": "garlic_sauce",          "calories_per_100g": 320, "protein_g_per_100g": 2.0,  "carbs_g_per_100g": 8.0,  "fat_g_per_100g": 31.0 },
+    { "ingredient_name": "mayo_sauce",            "calories_per_100g": 680, "protein_g_per_100g": 1.0,  "carbs_g_per_100g": 2.0,  "fat_g_per_100g": 75.0 },
+    { "ingredient_name": "lettuce",               "calories_per_100g": 15,  "protein_g_per_100g": 1.4,  "carbs_g_per_100g": 2.9,  "fat_g_per_100g": 0.2  }
+  ],
+
+  "portion_scale_factors": [
+    { "bucket_label": "katori",           "scale_factor": 0.4 },
+    { "bucket_label": "half_plate",       "scale_factor": 0.5 },
+    { "bucket_label": "chota_plate",      "scale_factor": 0.6 },
+    { "bucket_label": "normal_plate",     "scale_factor": 1.0 },
+    { "bucket_label": "bara_plate",       "scale_factor": 1.4 },
+    { "bucket_label": "plate_and_a_half", "scale_factor": 1.5 }
+  ],
+
+  "dishes": [
+
+    {
+      "dish_id": "chicken_karahi",
+      "display_name": "Chicken Karahi",
+      "synonyms": ["karahi", "kadhai", "chicken kadai", "karahi gosht", "kadai chicken", "chicken karai"],
+      "category": "home_cooked",
+      "default_portion_label": "normal_plate",
+      "default_portion_total_grams": 558.0,
+      "ingredients": [
+        { "ingredient_name": "chicken_bone_in",  "scaling_type": "count",  "avg_unit_grams": 100.0, "default_count": 3 },
+        { "ingredient_name": "tomato",           "scaling_type": "bucket", "default_grams": 120.0 },
+        { "ingredient_name": "cooking_oil",      "scaling_type": "bucket", "default_grams": 30.0  },
+        { "ingredient_name": "onion",            "scaling_type": "bucket", "default_grams": 50.0  },
+        { "ingredient_name": "yogurt_plain",     "scaling_type": "bucket", "default_grams": 40.0  },
+        { "ingredient_name": "ginger",           "scaling_type": "bucket", "default_grams": 10.0  },
+        { "ingredient_name": "garlic",           "scaling_type": "bucket", "default_grams": 8.0   }
+      ]
+    },
+
+    {
+      "dish_id": "dal_chawal",
+      "display_name": "Dal Chawal",
+      "synonyms": ["daal chawal", "dal rice", "tarka dal with rice", "daal rice", "lentils and rice", "dal"],
+      "category": "home_cooked",
+      "default_portion_label": "normal_plate",
+      "default_portion_total_grams": 535.0,
+      "ingredients": [
+        { "ingredient_name": "basmati_rice_cooked", "scaling_type": "bucket", "default_grams": 250.0 },
+        { "ingredient_name": "dal_cooked",          "scaling_type": "bucket", "default_grams": 200.0 },
+        { "ingredient_name": "cooking_oil",         "scaling_type": "bucket", "default_grams": 15.0  },
+        { "ingredient_name": "onion",               "scaling_type": "bucket", "default_grams": 30.0  },
+        { "ingredient_name": "tomato",              "scaling_type": "bucket", "default_grams": 40.0  }
+      ]
+    },
+
+    {
+      "dish_id": "chicken_biryani",
+      "display_name": "Chicken Biryani",
+      "synonyms": ["biryani", "chicken biriyani", "biryani chicken", "degi biryani", "karachi biryani"],
+      "category": "home_cooked",
+      "default_portion_label": "normal_plate",
+      "default_portion_total_grams": 535.0,
+      "ingredients": [
+        { "ingredient_name": "chicken_bone_in",     "scaling_type": "count",  "avg_unit_grams": 100.0, "default_count": 2 },
+        { "ingredient_name": "basmati_rice_cooked", "scaling_type": "bucket", "default_grams": 200.0 },
+        { "ingredient_name": "cooking_oil",         "scaling_type": "bucket", "default_grams": 25.0  },
+        { "ingredient_name": "onion",               "scaling_type": "bucket", "default_grams": 40.0  },
+        { "ingredient_name": "yogurt_plain",        "scaling_type": "bucket", "default_grams": 40.0  },
+        { "ingredient_name": "tomato",              "scaling_type": "bucket", "default_grams": 30.0  }
+      ]
+    },
+
+    {
+      "dish_id": "nihari",
+      "display_name": "Beef Nihari",
+      "synonyms": ["nehari", "nalli nihari", "nihari gosht", "beef nihari", "nihari naan"],
+      "category": "home_cooked",
+      "default_portion_label": "normal_plate",
+      "default_portion_total_grams": 380.0,
+      "ingredients": [
+        { "ingredient_name": "beef_shank_cooked", "scaling_type": "bucket", "default_grams": 250.0 },
+        { "ingredient_name": "cooking_oil",       "scaling_type": "bucket", "default_grams": 35.0  },
+        { "ingredient_name": "onion",             "scaling_type": "bucket", "default_grams": 60.0  },
+        { "ingredient_name": "maida",             "scaling_type": "bucket", "default_grams": 20.0  },
+        { "ingredient_name": "ginger",            "scaling_type": "bucket", "default_grams": 15.0  }
+      ]
+    },
+
+    {
+      "dish_id": "haleem",
+      "display_name": "Beef Haleem",
+      "synonyms": ["halim", "beef haleem", "mutton haleem", "haleem gosht"],
+      "category": "home_cooked",
+      "default_portion_label": "normal_plate",
+      "default_portion_total_grams": 410.0,
+      "ingredients": [
+        { "ingredient_name": "beef_mince",           "scaling_type": "bucket", "default_grams": 150.0 },
+        { "ingredient_name": "mixed_lentils_cooked", "scaling_type": "bucket", "default_grams": 100.0 },
+        { "ingredient_name": "wheat_daliya_cooked",  "scaling_type": "bucket", "default_grams": 80.0  },
+        { "ingredient_name": "cooking_oil",          "scaling_type": "bucket", "default_grams": 20.0  },
+        { "ingredient_name": "onion",                "scaling_type": "bucket", "default_grams": 30.0  },
+        { "ingredient_name": "ginger",               "scaling_type": "bucket", "default_grams": 10.0  },
+        { "ingredient_name": "yogurt_plain",         "scaling_type": "bucket", "default_grams": 20.0  }
+      ]
+    },
+
+    {
+      "dish_id": "palak_gosht",
+      "display_name": "Palak Gosht",
+      "synonyms": ["saag gosht", "palak meat", "spinach curry", "spinach gosht", "palak mutton"],
+      "category": "home_cooked",
+      "default_portion_label": "normal_plate",
+      "default_portion_total_grams": 525.0,
+      "ingredients": [
+        { "ingredient_name": "mutton_bone_in", "scaling_type": "bucket", "default_grams": 200.0 },
+        { "ingredient_name": "spinach",        "scaling_type": "bucket", "default_grams": 150.0 },
+        { "ingredient_name": "cooking_oil",    "scaling_type": "bucket", "default_grams": 25.0  },
+        { "ingredient_name": "onion",          "scaling_type": "bucket", "default_grams": 50.0  },
+        { "ingredient_name": "tomato",         "scaling_type": "bucket", "default_grams": 60.0  },
+        { "ingredient_name": "yogurt_plain",   "scaling_type": "bucket", "default_grams": 30.0  },
+        { "ingredient_name": "ginger",         "scaling_type": "bucket", "default_grams": 10.0  }
+      ]
+    },
+
+    {
+      "dish_id": "aloo_gosht",
+      "display_name": "Aloo Gosht",
+      "synonyms": ["aloo meat", "potato curry", "potato gosht", "aloo mutton", "aloo gosht curry"],
+      "category": "home_cooked",
+      "default_portion_label": "normal_plate",
+      "default_portion_total_grams": 505.0,
+      "ingredients": [
+        { "ingredient_name": "mutton_bone_in", "scaling_type": "bucket", "default_grams": 200.0 },
+        { "ingredient_name": "potato",         "scaling_type": "bucket", "default_grams": 150.0 },
+        { "ingredient_name": "cooking_oil",    "scaling_type": "bucket", "default_grams": 25.0  },
+        { "ingredient_name": "onion",          "scaling_type": "bucket", "default_grams": 60.0  },
+        { "ingredient_name": "tomato",         "scaling_type": "bucket", "default_grams": 60.0  },
+        { "ingredient_name": "ginger",         "scaling_type": "bucket", "default_grams": 10.0  }
+      ]
+    },
+
+    {
+      "dish_id": "sarson_saag",
+      "display_name": "Sarson Ka Saag",
+      "synonyms": ["sarson saag", "saag", "mustard greens", "makki di roti saag", "punjabi saag"],
+      "category": "home_cooked",
+      "default_portion_label": "normal_plate",
+      "default_portion_total_grams": 400.0,
+      "ingredients": [
+        { "ingredient_name": "mustard_greens", "scaling_type": "bucket", "default_grams": 200.0 },
+        { "ingredient_name": "spinach",        "scaling_type": "bucket", "default_grams": 80.0  },
+        { "ingredient_name": "makki_atta",     "scaling_type": "bucket", "default_grams": 20.0  },
+        { "ingredient_name": "ghee",           "scaling_type": "bucket", "default_grams": 20.0  },
+        { "ingredient_name": "butter",         "scaling_type": "bucket", "default_grams": 20.0  },
+        { "ingredient_name": "onion",          "scaling_type": "bucket", "default_grams": 40.0  },
+        { "ingredient_name": "garlic",         "scaling_type": "bucket", "default_grams": 10.0  },
+        { "ingredient_name": "ginger",         "scaling_type": "bucket", "default_grams": 10.0  }
+      ]
+    },
+
+    {
+      "dish_id": "chicken_pulao",
+      "display_name": "Chicken Pulao",
+      "synonyms": ["pulao", "pilaf", "chicken pilaf", "yakhni pulao", "chicken yakhni pulao"],
+      "category": "home_cooked",
+      "default_portion_label": "normal_plate",
+      "default_portion_total_grams": 540.0,
+      "ingredients": [
+        { "ingredient_name": "chicken_bone_in",     "scaling_type": "count",  "avg_unit_grams": 100.0, "default_count": 2 },
+        { "ingredient_name": "basmati_rice_cooked", "scaling_type": "bucket", "default_grams": 250.0 },
+        { "ingredient_name": "cooking_oil",         "scaling_type": "bucket", "default_grams": 20.0  },
+        { "ingredient_name": "onion",               "scaling_type": "bucket", "default_grams": 40.0  },
+        { "ingredient_name": "yogurt_plain",        "scaling_type": "bucket", "default_grams": 30.0  }
+      ]
+    },
+
+    {
+      "dish_id": "dahi_chawal",
+      "display_name": "Dahi Chawal",
+      "synonyms": ["dahi rice", "curd rice", "yogurt rice", "dahi wala chawal"],
+      "category": "home_cooked",
+      "default_portion_label": "normal_plate",
+      "default_portion_total_grams": 480.0,
+      "ingredients": [
+        { "ingredient_name": "basmati_rice_cooked", "scaling_type": "bucket", "default_grams": 250.0 },
+        { "ingredient_name": "yogurt_plain",        "scaling_type": "bucket", "default_grams": 200.0 },
+        { "ingredient_name": "cooking_oil",         "scaling_type": "bucket", "default_grams": 10.0  },
+        { "ingredient_name": "onion",               "scaling_type": "bucket", "default_grams": 20.0  }
+      ]
+    },
+
+    {
+      "dish_id": "chicken_shawarma",
+      "display_name": "Chicken Shawarma",
+      "synonyms": ["shawarma", "chicken wrap", "shawarma roll", "shawerma", "chicken shawerma"],
+      "category": "fast_food",
+      "default_portion_label": "normal_plate",
+      "default_portion_total_grams": 265.0,
+      "ingredients": [
+        { "ingredient_name": "pita_bread",      "scaling_type": "bucket", "default_grams": 80.0  },
+        { "ingredient_name": "chicken_boneless","scaling_type": "bucket", "default_grams": 100.0 },
+        { "ingredient_name": "garlic_sauce",    "scaling_type": "bucket", "default_grams": 30.0  },
+        { "ingredient_name": "lettuce",         "scaling_type": "bucket", "default_grams": 20.0  },
+        { "ingredient_name": "tomato",          "scaling_type": "bucket", "default_grams": 20.0  },
+        { "ingredient_name": "onion",           "scaling_type": "bucket", "default_grams": 15.0  }
+      ]
+    },
+
+    {
+      "dish_id": "zinger_burger",
+      "display_name": "Zinger Burger",
+      "synonyms": ["zinger", "zinger burger", "crispy chicken burger", "chicken burger", "fried chicken burger"],
+      "category": "fast_food",
+      "default_portion_label": "normal_plate",
+      "default_portion_total_grams": 260.0,
+      "ingredients": [
+        { "ingredient_name": "burger_bun",      "scaling_type": "bucket", "default_grams": 80.0  },
+        { "ingredient_name": "chicken_boneless","scaling_type": "bucket", "default_grams": 100.0 },
+        { "ingredient_name": "maida",           "scaling_type": "bucket", "default_grams": 20.0  },
+        { "ingredient_name": "cooking_oil",     "scaling_type": "bucket", "default_grams": 25.0  },
+        { "ingredient_name": "mayo_sauce",      "scaling_type": "bucket", "default_grams": 20.0  },
+        { "ingredient_name": "lettuce",         "scaling_type": "bucket", "default_grams": 15.0  }
+      ]
+    },
+
+    {
+      "dish_id": "chicken_boti",
+      "display_name": "Chicken Boti (BBQ)",
+      "synonyms": ["boti", "chicken tikka", "bbq boti", "seekh boti", "chicken skewer", "tikka boti"],
+      "category": "fast_food",
+      "default_portion_label": "normal_plate",
+      "default_portion_total_grams": 240.0,
+      "ingredients": [
+        { "ingredient_name": "chicken_boneless", "scaling_type": "count",  "avg_unit_grams": 50.0, "default_count": 4 },
+        { "ingredient_name": "cooking_oil",      "scaling_type": "bucket", "default_grams": 10.0 },
+        { "ingredient_name": "yogurt_plain",     "scaling_type": "bucket", "default_grams": 30.0 }
+      ]
+    },
+
+    {
+      "dish_id": "chapli_kebab",
+      "display_name": "Chapli Kebab",
+      "synonyms": ["chapli", "chapli kabab", "peshawari kebab", "peshawari chapli", "chapli kabab"],
+      "category": "fast_food",
+      "default_portion_label": "normal_plate",
+      "default_portion_total_grams": 330.0,
+      "ingredients": [
+        { "ingredient_name": "beef_mince",  "scaling_type": "count",  "avg_unit_grams": 100.0, "default_count": 2 },
+        { "ingredient_name": "egg_whole",   "scaling_type": "count",  "avg_unit_grams": 50.0,  "default_count": 1 },
+        { "ingredient_name": "onion",       "scaling_type": "bucket", "default_grams": 30.0  },
+        { "ingredient_name": "tomato",      "scaling_type": "bucket", "default_grams": 20.0  },
+        { "ingredient_name": "cooking_oil", "scaling_type": "bucket", "default_grams": 20.0  },
+        { "ingredient_name": "maida",       "scaling_type": "bucket", "default_grams": 10.0  }
+      ]
+    },
+
+    {
+      "dish_id": "aloo_samosa",
+      "display_name": "Aloo Samosa",
+      "synonyms": ["samosa", "potato samosa", "aloo samosa", "samosay"],
+      "category": "fast_food",
+      "default_portion_label": "normal_plate",
+      "default_portion_total_grams": 185.0,
+      "ingredients": [
+        { "ingredient_name": "maida",       "scaling_type": "count",  "avg_unit_grams": 20.0, "default_count": 2 },
+        { "ingredient_name": "potato",      "scaling_type": "count",  "avg_unit_grams": 40.0, "default_count": 2 },
+        { "ingredient_name": "cooking_oil", "scaling_type": "bucket", "default_grams": 25.0 },
+        { "ingredient_name": "onion",       "scaling_type": "bucket", "default_grams": 20.0 },
+        { "ingredient_name": "peas",        "scaling_type": "bucket", "default_grams": 20.0 }
+      ]
+    },
+
+    {
+      "dish_id": "chicken_paratha_roll",
+      "display_name": "Chicken Paratha Roll",
+      "synonyms": ["paratha roll", "chicken roll", "chapati roll", "roll paratha", "chicken paratha"],
+      "category": "fast_food",
+      "default_portion_label": "normal_plate",
+      "default_portion_total_grams": 260.0,
+      "ingredients": [
+        { "ingredient_name": "atta_whole_wheat", "scaling_type": "bucket", "default_grams": 100.0 },
+        { "ingredient_name": "chicken_boneless", "scaling_type": "count",  "avg_unit_grams": 40.0,  "default_count": 2 },
+        { "ingredient_name": "egg_whole",        "scaling_type": "count",  "avg_unit_grams": 50.0,  "default_count": 1 },
+        { "ingredient_name": "cooking_oil",      "scaling_type": "bucket", "default_grams": 15.0  },
+        { "ingredient_name": "onion",            "scaling_type": "bucket", "default_grams": 15.0  }
+      ]
+    },
+
+    {
+      "dish_id": "qeema_naan",
+      "display_name": "Qeema Naan",
+      "synonyms": ["keema naan", "qeema naan", "mince naan", "stuffed naan", "qeema wala naan"],
+      "category": "fast_food",
+      "default_portion_label": "normal_plate",
+      "default_portion_total_grams": 240.0,
+      "ingredients": [
+        { "ingredient_name": "maida",      "scaling_type": "bucket", "default_grams": 100.0 },
+        { "ingredient_name": "beef_mince", "scaling_type": "bucket", "default_grams": 100.0 },
+        { "ingredient_name": "onion",      "scaling_type": "bucket", "default_grams": 20.0  },
+        { "ingredient_name": "butter",     "scaling_type": "bucket", "default_grams": 10.0  },
+        { "ingredient_name": "cooking_oil","scaling_type": "bucket", "default_grams": 10.0  }
+      ]
+    },
+
+    {
+      "dish_id": "doodh_patti",
+      "display_name": "Doodh Patti Chai",
+      "synonyms": ["doodh pati", "milk tea", "chai", "dhood patti", "cutting chai", "pakistani chai"],
+      "category": "fast_food",
+      "default_portion_label": "normal_plate",
+      "default_portion_total_grams": 215.0,
+      "ingredients": [
+        { "ingredient_name": "milk_full_fat", "scaling_type": "bucket", "default_grams": 200.0 },
+        { "ingredient_name": "sugar",         "scaling_type": "bucket", "default_grams": 15.0  }
+      ]
+    },
+
+    {
+      "dish_id": "aloo_pakora",
+      "display_name": "Aloo Pakora",
+      "synonyms": ["pakora", "potato pakora", "aloo pakoda", "bhajiya", "pakodey"],
+      "category": "fast_food",
+      "default_portion_label": "normal_plate",
+      "default_portion_total_grams": 270.0,
+      "ingredients": [
+        { "ingredient_name": "potato",      "scaling_type": "bucket", "default_grams": 150.0 },
+        { "ingredient_name": "besan",       "scaling_type": "bucket", "default_grams": 80.0  },
+        { "ingredient_name": "cooking_oil", "scaling_type": "bucket", "default_grams": 40.0  }
+      ]
+    },
+
+    {
+      "dish_id": "plain_paratha",
+      "display_name": "Plain Paratha",
+      "synonyms": ["paratha", "chapati", "roti", "desi ghee paratha", "tawa paratha", "ghee paratha"],
+      "category": "home_cooked",
+      "default_portion_label": "normal_plate",
+      "default_portion_total_grams": 95.0,
+      "ingredients": [
+        { "ingredient_name": "atta_whole_wheat", "scaling_type": "count", "avg_unit_grams": 80.0, "default_count": 1 },
+        { "ingredient_name": "ghee",             "scaling_type": "count", "avg_unit_grams": 15.0, "default_count": 1 }
+      ]
+    }
+
+  ]
+}

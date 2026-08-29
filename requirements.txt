@@ -1,0 +1,19 @@
+# Desi Calorie Tracker v1 — Dependencies
+# Install with: pip install -r requirements.txt
+
+# Supabase (Postgres backend)
+supabase>=2.3.0
+
+# Google Gemini (LLM + audio understanding)
+google-generativeai>=0.8.0
+
+# Data validation
+pydantic>=2.5.0
+
+# Environment variable loading
+python-dotenv>=1.0.0
+
+# Audio recording (mic input)
+sounddevice>=0.4.6
+soundfile>=0.12.1
+numpy>=1.26.0
